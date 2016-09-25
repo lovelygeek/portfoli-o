@@ -1,0 +1,290 @@
+/*
+Theme Name: V.1
+Theme URI: http://cassenza.com
+Description: A Web 2.0 design featuring Computer Girl
+Author: Cristina Assenza
+*/
+
+/* ----------- Main Body ----------- */
+
+body {
+background: #D6E7EF;
+font: 70%/160% Verdana, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+abbr {
+border-bottom: 1px dotted #333;
+cursor: help;
+}
+
+a:link,a:visited,a:active {
+color:#018902;
+text-decoration:none;
+}
+
+a:hover {
+color:#000;
+text-decoration:none;
+}
+
+.centerize {
+   text-align: center; }
+
+.centered, #wp-calendar, caption {
+margin: 0 auto 0 auto;
+}
+
+
+blockquote {
+background:url('http://darth-cena.net/images/site/quote.png') 5% 0 no-repeat;
+border:none;
+margin:20px 0;
+padding:0 20px 0 50px;
+}
+
+img { 
+border: 0;
+}
+
+.links {
+display: inline-block;
+height: 1px;
+list-style-type: none;
+}
+
+ul.green {
+list-style-image: url('images/bullet.png');
+}
+
+
+.layouts {
+border:1px #ccc solid;
+margin:5px 3px 0;
+padding:3px;
+width:100px;
+height:75px;
+}
+
+.img-shadow {
+  float:left;
+  background: url(http://darth-cena.net/images/site/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(http://darth-cena.net/images/site/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+}
+
+div.img-ilus {
+	background: url('http://darth-cena.net/images/site/shadow2.gif') no-repeat bottom right;
+	margin: 10px 5px;
+	padding: 0;
+	position: relative;
+}
+
+div.img-ilus img {
+	background-color: #fff;
+	border: 1px solid #a9a9a9;
+	margin: -5px 5px 5px -5px;
+	padding: 4px;
+	position: relative;
+	vertical-align: bottom;
+}
+
+#container {
+background: url("images/bg_repeat.png") repeat top left;
+width: 900px;
+margin: 0 auto;
+text-align: left;
+}
+
+#header {
+background: url("images/header.png") no-repeat top left;
+margin:0;
+padding:0;
+width:900px; 
+height:223px;
+}
+
+#footer {
+background: url("images/footer.png") no-repeat top left;
+color: #DDFFBB;
+margin:0;
+padding:0;
+width: 900px; 
+height: 26px;
+clear: both;
+text-align: center; 
+}
+
+#footer a:link,#footer a:visited,#footer a:active {
+color:#FBFBFB;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#000;
+text-decoration:none;
+}
+
+/* ----------- Navigation ----------- */
+
+#navigation {
+float:right;
+margin: -85px 0px 0px 0px;
+width: 780px;
+height: 20px;
+color:#000;
+font: 18px "Century Gothic", Arial, Helvetica, sans-serif;
+text-align:justify;
+text-transform: uppercase;
+}
+
+
+#navigation a:link,#navigation a:visited,#navigation a:active {
+color:#6C6C6C;
+text-decoration:none;
+}
+
+#navigation a:hover {
+color:#000;
+text-decoration:none;
+}
+
+
+/* ----------- Content ----------- */
+
+#content {
+background:none;
+float:left;
+margin: -55px 5px 0 50px;
+padding: 10px;
+width:770px;
+color:#000;
+text-align:justify;
+}
+
+#sidebar {
+margin: 10px 0px 0 0px;
+color:#fff;
+width: 740px;
+padding: 5px;
+background: #BDD1DA;
+border-top:1px solid #92A1A8;
+border-bottom:1px solid #92A1A8;
+font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+
+fieldset {
+border-style:solid;
+border-width:0;
+margin:0 0 20px;
+padding:0;
+}
+
+input, select, textarea {
+	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+	font-size: 100%;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ----------- WordPress ----------- */
+
+
+.timestamp {
+color:#000;
+padding: 5px;
+vertical-align: middle;
+font-size: 10px;
+}
+
+.scrobbles {
+list-style: none;
+width: 250px;
+margin:0;
+padding:0;
+}
+
+.commentlink {
+text-align: right;
+}
+
+.comments-wrap { 
+margin:10px 20px; 
+} 
+
+p.approval { 
+margin: 5px auto;
+width:80%;
+background:#fff;
+font: italic normal bold 1.1em/1.5em Verdana, Arial, Helvetica, sans-serif; 
+padding:2px;
+text-align:center;
+border-bottom: 1px solid #e3eef5; 
+border-right: 1px solid #e3eef5; 
+} 
+
+.commenthead {
+color:#000;
+text-align:center;
+font-size:9px;
+padding-bottom:1px;
+margin-bottom:2px;
+font-weight:700;
+text-transform:uppercase;
+border-top:1px dotted #874409;
+border-bottom:1px dotted #874409;
+}
+
+.comment-author {
+margin: 10px 0;
+padding:10px;
+background:#D9E5B4; 
+border-top: 1px solid #C2B4D3;
+border-bottom: 1px solid #C2B4D3;
+}
+
+.comment-visitor {
+margin: 10px 0;
+padding:10px;
+background:#FEEBBC; 
+border-top: 1px solid #874409;
+border-bottom: 1px solid #874409;
+} 
+
+.gravatar {
+float:left;
+margin: -5px 10px 0 -5px;
+padding:0;
+}
+
+.gravatar img {
+width:40px;
+height:40px;
+border: 1px solid #808080;
+}
+
+.excerpt {
+font-size: 10px;
+}
